@@ -1,0 +1,6 @@
+Feature: Carrinho de compras 
+
+Cenário: Adicionar multiplos produtos no carrinho de compras - Verificar preço final
+Given: Estou logado no site da Amazon
+When: Adicionar multiplos produtos no carrinho de compras 
+Then: O preço total do carrinho é a soma dos itens adicionados 

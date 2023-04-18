@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/rxaviersantos/automacao-cypress#readme",
   "devDependencies": {
-    "cypress": "^12.9.0"
-  },
-  "dependencies": {
+    "cypress": "^12.10.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
