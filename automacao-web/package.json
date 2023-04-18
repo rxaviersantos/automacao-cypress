@@ -1,0 +1,14 @@
+{
+  "name": "automacao-web",
+  "version": "1.0.0",
+  "description": "Testando funcionalidade de compra do e-commerce Amazon ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Xavier",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^12.10.0"
+  }
+}
