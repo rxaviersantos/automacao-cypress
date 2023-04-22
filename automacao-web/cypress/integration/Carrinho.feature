@@ -1,6 +1,8 @@
-Feature: Carrinho
+Feature: Compra de Produto com Demanda Reprimida
 
-  Scenario: Adicionar multiplos produtos ao carrinho - Verificar preço final
-    Given: Estou logado na amazon 
-    When: Adicionar multiplos produtos ao carrinho 
-    Then: O preço final do meu carrinho é a soma dos items adicionados 
+  Scenario: Comprar produto sem estoque
+    Given: Acesso a pagina da amazon 
+      And: busco um play 5
+    When: existe o produto em estoque
+    Then: adiciono o produto ao carrinho
+      And: fecho o pedido
