@@ -1,6 +1,6 @@
 ## Iniciando project 
 
-`npm init` -yes
+`npm init -yes`
 
 ## Instalando dependências 
 
@@ -11,6 +11,10 @@
 ### Prettier
 
 `npm install prettier`
+
+## Iniciando o cypress 
+
+`npx cypress open`
 
 
 

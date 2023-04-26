@@ -4,7 +4,8 @@
   "description": "Testes com cypress e cucumber ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:tests": "cypress run"
   },
   "keywords": [
     "Cypress",
@@ -17,5 +18,8 @@
     "cypress": "^12.10.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "prettier": "^2.8.8"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
