@@ -5,15 +5,15 @@ Given('I open login page', () => {
 })
 
 When('I subimit login', () => {
-	// fill username
+	// Preencher nome de usuário
 	cy.get('#user_login').type('username')
-	// fill password
-	cy.get('#ser_password').type('password')
-	// subimit form
-	cy.get('input[name="submit"]').click
+	// Preencher senha
+	cy.get('#user_password').type('password')
+	// Enviar formulário
+	cy.get('input[name="submit"]').click()
 })
 
 Then('I should see homepage', () => {
-	// get some element after login
+	// Obter algum elemento após o login
 	cy.visit('#account_summary_tab').should('be.visible')
 })

@@ -17,7 +17,8 @@
 `npx cypress open`
 
 
+## Rodando testes 
 
-
+`npx cypress run` este comando verifica se todas as especificações foram aprovadas, quanto tempo levou para execução, 
 
 

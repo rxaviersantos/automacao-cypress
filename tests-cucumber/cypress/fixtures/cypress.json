@@ -4,3 +4,4 @@
 "pageLoadTimeout": 10000,
 "ignoreTestFiles": ["*.js", "*.md"]
 }
+    
