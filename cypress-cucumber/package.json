@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Automação de teste com cypress e cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "BDD"
+  ],
+  "author": "Rodrigo Xavier",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
