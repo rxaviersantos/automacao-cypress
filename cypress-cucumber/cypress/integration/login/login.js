@@ -8,12 +8,12 @@ When("A user enter the username {string}", (username) => {
   cy.get("#user-name").type(username);
 });
 
-And(" A user enter the password {string}", (password) => {
+And("A user enter the password {string}", (password) => {
   cy.get("#password").type(password);
 });
 
-And(" A user clicks on the login button", () => {
-  cy.get("#login-buton").click();
+And("A user clicks on the login button", () => {
+  cy.get("#login-button").click();
 });
 
 Then("A user will be logged in", () => {
