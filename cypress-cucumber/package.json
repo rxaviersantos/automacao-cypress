@@ -14,9 +14,9 @@
   "author": "Rodrigo Xavier",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.11.0",
+    "cypress": "^9.1.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
-  }, 
+  },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
   }
