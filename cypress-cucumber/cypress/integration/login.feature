@@ -1,18 +1,18 @@
-  Feature: Login Feature 
+  Feature: Funcionalidade de login
 
-    Feature This feature is required for a user to log in
+    Feature Este recurso é necessário para que um usuário faça login
 
-    Scenario: Sucess Login
-    Given A user opens the login page
-     When A user enter the username "standard_user"
-     And A user enter the password "secret_sauce"
-     And A user clicks on the login button 
-     Then A user will be logged in 
+    Scenario: Login de sucesso
+    Given Um usuário abre a página de login
+     When Um usuário insere o nome de usuário "standard_user"
+     And Um usuário digita o password "secret_sauce"
+     And Um usuário clica no botão de login
+     Then Um usuário será logado
 
-    Scenario: Failed login
-    Given A user opens the login page
-     When A user enter the username "locked_out_user"
-     And A user enter the password "secret_sauce"
-     And A user clicks on the login button 
-     Then A user will be receiving a failed message
+    Scenario: Falha no login
+    Given Um usuário abre a página de login
+     When Um usuário insere o nome de usuário "locked_out_user"
+     And Um usuário digita o password "secret_sauce"
+     And Um usuário clica no botão de login
+     Then Um usuário receberá uma mensagem com falha
 

@@ -1,25 +1,28 @@
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps";
 
-Given("A user opens the login page", () => {
+Given("Um usuário abre a página de login", () => {
   cy.visit("/");
 });
 
-When("A user enter the username {string}", (username) => {
+When("Um usuário insere o nome de usuário {string}", (username) => {
   cy.get("#user-name").type(username);
 });
 
-And("A user enter the password {string}", (password) => {
+And("Um usuário digita o password {string}", (password) => {
   cy.get("#password").type(password);
 });
 
-And("A user clicks on the login button", () => {
+And("Um usuário clica no botão de login", () => {
   cy.get("#login-button").click();
 });
 
-Then("A user will be logged in", () => {
+Then("Um usuário será logado", () => {
   cy.url().should("contains", "/inventory.html");
 });
 
-Then("A user will be receiving a failed message", () => {
-  cy.get("h3").should("Epic sadface: Sorry, this user has been locked out.");
+Then("Um usuário receberá uma mensagem com falha", () => {
+  cy.get("h3").should(
+    "have.text",
+    "Epic sadface: Sorry, this user has been locked out."
+  );
 });

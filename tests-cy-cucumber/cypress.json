@@ -1,7 +1,0 @@
-{
-    "video": false,
-    "defaultCommandTimeout": 5000,
-    "pageLoadTimeout": 10000,
-    "chromeWebSecurity": false,
-    "ignoreTestFiles": ["*.js", "*.md"]
-}
