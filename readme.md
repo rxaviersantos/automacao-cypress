@@ -24,6 +24,13 @@ Para rodar os testes, use o seguinte comando
 
 [saucedemo.com](https://www.saucedemo.com/)
 
+<p align="center">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/236064391-b7c9915b-8668-4f23-b03d-7e70637a2786.png" " height="620px" width="820px">
+</p>
+
+
+
+
 ## Configurações
 
 
