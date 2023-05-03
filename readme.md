@@ -28,16 +28,9 @@ Para rodar os testes, use o seguinte comando
   <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/236064391-b7c9915b-8668-4f23-b03d-7e70637a2786.png" " height="620px" width="820px">
 </p>
 
-
-
-
 ## Configurações
 
-
-Ao rodar o `script` de teste, ocorrer algum erro, será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
-=======
 Ao rodar o `script` de teste ocorrer algum erro, será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
-
 
 ```json
 {
@@ -86,3 +79,36 @@ npx cypress open
 
 [Javascript](https://www.javascript.com/)
 
+--------------
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://link-para-o-projeto
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run test
+```
+
+
+
+
+<p align="center">
+ Olá, sinta-se à vontade para mostrar apoio e dar a este repo<img src="https://img.icons8.com/fluency/20/null/star.png"/>estrela! Significa muito, obrigado :) 
+</p>
