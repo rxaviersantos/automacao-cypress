@@ -26,7 +26,7 @@ Para rodar os testes, rode o seguinte comando
 
 ## Configurações
 
-Ao rodar o `script` de teste ocorrer algum erro será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
+Ao rodar o `script` de teste ocorrer algum erro, será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
 
 ```json
 {
@@ -34,8 +34,7 @@ Ao rodar o `script` de teste ocorrer algum erro será necessário configurar em 
 }
 ```
 
-Para executar o cypress-cucumber-preprocessor corretamente, será necessário criar a configuração para plug-in, adicionando ao arquivo `package.json` [cypress-cucumber-preprocessor
-](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
+Para executar o `cypress-cucumber-preprocessor` corretamente, será necessário criar a configuração para plug-in, adicionando ao arquivo `package.json` [cypress-cucumber-preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 
 ```bash
 "cypress-cucumber-preprocessor": {
@@ -48,9 +47,7 @@ Para executar o cypress-cucumber-preprocessor corretamente, será necessário cr
 ```bash
 npm i cypress@9.1.0
 ```
-## Instalando dependências 
-
-### Cucumber 
+## Instalando dependência Cucumber 
 
 ```bash
 npm install --save-dev cypress cypress-cucumber-preprocessor
@@ -76,5 +73,5 @@ npx cypress open
 
 [nodejs](https://nodejs.org/en)
 
-[Documentação](https://link-da-documentação)
+[Javascript](https://www.javascript.com/)
 
