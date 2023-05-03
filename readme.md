@@ -26,11 +26,11 @@ Para rodar os testes, use o seguinte comando
 
 ## Configurações
 
-<<<<<<< HEAD
+
 Ao rodar o `script` de teste, ocorrer algum erro, será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
 =======
 Ao rodar o `script` de teste ocorrer algum erro, será necessário configurar em sua base `cypress.config.js` a configuração [Web Security](https://docs.cypress.io/guides/guides/web-security)
->>>>>>> 2f80bad063a4310c82dc9ba6fc473bbdd44113e6
+
 
 ```json
 {
