@@ -1,4 +1,4 @@
-// Métodos - Definindo objeto de página do arquivo de definição login.js
+// Métodos - Definindo objeto da página home
 class homeSaucePage {
   elements = {
     usernameInput: () => cy.get("#user-name"),
