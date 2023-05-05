@@ -1,12 +1,27 @@
 <h1 align="center"> Automação de teste com Cypress e Cucumber </h1>
 
 <p align="center">
-Repositório destinado ao desenvolvimento de teste automatizado utilizando o framework Cypress<br/>
+Repositório destinado ao desenvolvimento de teste
 </p>
+
+<p align="center">
+  automatizado utilizando o framework Cypress<br/>
+</p>
+
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg">
 
 </p>
+
+# Teste de login
+
+Este repositório contém scripts para testar cenários comuns usando o Cypress: 
+
+- Inserir o nome e senha de usuário correto, o sistema direciona para o site de inventário.
+- Iserir um usuário bloqueado e senha correta, sistema exibir a mensagem  " Desculpe, este usuário foi bloqueado".
+- Inserir o nome de usuário incorreto, sistema exibir a mensagem " O nome de usuário e a senha não correspondem a nenhum usuário neste serviço".
+- Validação ao fazer login com sucesso, procurar um exemplo de produto e certificar que ele salve o produto.
+- Validar se o sistema retorna a mensagem "Epic sadface: Username and password do not match any user in this service" quando o usuário insere nome ou senha incorreta.
 
 ## Iniciando project 
 
