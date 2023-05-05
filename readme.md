@@ -40,7 +40,7 @@ Para rodar os testes, use o seguinte comando
 [saucedemo.com](https://www.saucedemo.com/)
 
 <p align="center">
-  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/236064391-b7c9915b-8668-4f23-b03d-7e70637a2786.png" " height="620px" width="820px">
+  <img alt="projeto tipo de botões" src="https://user-images.githubusercontent.com/85380530/236064391-b7c9915b-8668-4f23-b03d-7e70637a2786.png" " height="580px" width="720px">
 </p>
 
 ## Configurações
@@ -77,6 +77,16 @@ npm install --save-dev cypress cypress-cucumber-preprocessor
 ```bash
 npx cypress open
 ```
+
+--- 
+## Demonstração
+
+<p align="center">
+  <img alt="cypress-cucumber-bdd" src="https://user-images.githubusercontent.com/85380530/236555616-43ccf44d-8437-403c-ac7c-498c4a28a52e.gif">
+
+</p>
+
+---
 
 
 ## Stack utilizada
@@ -120,13 +130,7 @@ Inicie o servidor
 ```bash
   npm run test
 ```
---- 
-## Demonstração
 
-Insira um gif ou um link de alguma demonstração
-
-
----
 
 <p align="center">
  Olá, sinta-se à vontade para mostrar apoio e dar a este repo<img src="https://img.icons8.com/fluency/20/null/star.png"/>estrela! Significa muito, obrigado :) 
