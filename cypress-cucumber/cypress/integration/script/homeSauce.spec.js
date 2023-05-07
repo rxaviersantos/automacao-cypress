@@ -8,6 +8,17 @@ describe("POM Implementacao", () => {
   beforeEach(() => {
     cy.visit("https://www.saucedemo.com/");
   });
+
+  // Cenário - Validar URL
+  it("URL deve ser https://www.saucedemo.com/", () => {
+    cy.url().should("eq", "https://www.saucedemo.com/");
+  });
+
+  // Cenário - Validar titulo
+  it("Deve ter uma tag de título com o valor Swag Labs", () => {
+    cy.title().should("eq", "Swag Labs");
+  });
+
   // Cenário - Login na página de produtos
   it("Deve fazer login na página de inventário", () => {
     homeSaucePage.typeUsername("standard_user");
