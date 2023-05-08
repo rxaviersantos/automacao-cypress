@@ -1,7 +1,7 @@
 // Validação da página
 
 // Especificando a rota
-import homeSaucePage from "../../plugins/pages/homeSaucePage";
+import homeSaucePage, { typePassword } from "../../plugins/pages/homeSaucePage";
 import inventoryPage from "../../plugins/pages/inventoryPage";
 
 describe("POM Implementacao", () => {
@@ -14,12 +14,22 @@ describe("POM Implementacao", () => {
     cy.url().should("eq", "https://www.saucedemo.com/");
   });
 
+  // Cenário - Validar protocolo
+  it("Deve ser HTTPS", () => {
+    cy.location("protocol").should("contains", "https");
+  });
+
+  // Cenário - Validar nome do host
+  it("O nome do host deve ser www.saucedemo.com", () => {
+    cy.location("hostname").should("eq", "www.saucedemo.com");
+  });
+
   // Cenário - Validar titulo
   it("Deve ter uma tag de título com o valor Swag Labs", () => {
     cy.title().should("eq", "Swag Labs");
   });
 
-  // Cenário - Login na página de produtos
+  // Cenário - Login na página de inventory
   it("Deve fazer login na página de inventário", () => {
     homeSaucePage.typeUsername("standard_user");
     homeSaucePage.typePassword("secret_sauce");
