@@ -15,8 +15,11 @@ describe("Locators in Cypress", () => {
 
   // Cenário - Utilizando métodos
   it("EQ|FIRST|LAST Method", () => {
+    // Acessando primeira posição da matriz
     cy.get("input").first().type(username);
+    // Acessando segunda posição da matriz
     cy.get("input").eq(1).type(password);
+    // Acessando ultima posição da matriz
     cy.get("input").last().click();
   });
 });
