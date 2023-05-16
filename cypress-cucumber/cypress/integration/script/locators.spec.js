@@ -22,4 +22,11 @@ describe("Locators in Cypress", () => {
     // Acessando ultima posição da matriz
     cy.get("input").last().click();
   });
+
+  // Cenário -
+  it("FILTER Method", () => {
+    cy.get("input").filter('[type="text"]').type(username);
+    cy.get("input").filter('[type="password"]').type(password);
+    cy.get("input").filter('[type="submit"]').click();
+  });
 });
