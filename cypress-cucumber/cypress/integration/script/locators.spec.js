@@ -23,10 +23,22 @@ describe("Locators in Cypress", () => {
     cy.get("input").last().click();
   });
 
-  // Cenário -
+  // Cenário - FILTER
   it("FILTER Method", () => {
     cy.get("input").filter('[type="text"]').type(username);
     cy.get("input").filter('[type="password"]').type(password);
     cy.get("input").filter('[type="submit"]').click();
+  });
+
+  // Cenário - FIND
+  it("FIND Method", () => {
+    cy.get("form").find("input").eq(0).type(username);
+    cy.get("form").find("input").eq(1).type(password);
+    cy.get("form").find("input").eq(2).click();
+  });
+
+  // Cenário - PARENT
+  it("PARENT Method", () => {
+    cy.get("form").parent().should("have.class", "login-box");
   });
 });
